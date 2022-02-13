@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Carlos J. Zuazo" />
+    <meta name="Description" content="Ejercicio Flex" />
+    <title>Ejercicio Flex</title>
+    <link rel="stylesheet" href="/hamburguesa.css" />
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personaliza tu hamburguesa</legend>
+
+        <fieldset>
+          <legend>Ingredientes</legend>
+
+          <label for="Queso">Queso:</label>
+          <input id="Queso" name="Queso" type="checkbox" />
+
+          <label for="Pimiento">Pimiento:</label>
+          <input id="Pimiento" name="Pimiento" type="checkbox" />
+
+          <label for="Cebolla">Cebolla:</label>
+          <input id="Cebolla" name="Cebolla" type="checkbox" />
+
+          <label for="Jamon">Jamón:</label>
+          <input id="Jamon" name="Jamon" type="checkbox" />
+
+          <label for="Huevo">Huevo:</label>
+          <input id="Huevo" name="Huevo" type="checkbox" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Tamaño</legend>
+
+          <label for="Pequena">Pequeña</label>
+          <input id="Pequena" name="size" type="radio" value="Pequena" />
+
+          <label for="Mediana">Mediana</label>
+          <input id="Mediana" name="size" type="radio" value="Mediana" />
+
+          <label for="Grande">Grande</label>
+          <input id="Grande" name="size" type="radio" value="Grande" />
+        </fieldset>
+      </fieldset>
+
+      <fieldset>
+        <legend>Datos de entrega</legend>
+
+        <label for="name">Nombre:</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="address">Dirección:</label>
+        <input id="address" name="address" type="text" required />
+
+        <label for="cell">Teléfono:</label>
+        <input id="cell" name="tel" type="cell" required />
+
+        <label for="Instrucciones">Instrucciones especiales:</label>
+        <textarea id="Instrucciones" name="Instrucciones"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Método de pago</legend>
+
+        <select name="payment" required>
+          <option value="">Escoge el método de pago</option>
+          <option value="credit_card">Tarjeta de crédito</option>
+          <option value="bank_transfer">Transferencia bancaria</option>
+          <option value="cash">Efectivo</option>
+        </select>
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
