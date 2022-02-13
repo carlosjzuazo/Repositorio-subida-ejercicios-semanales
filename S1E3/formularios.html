@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Carlos J. Zuazo" />
+    <meta name="Description" content="Formularios" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <main>
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Formulario</legend>
+
+          <label for="name">Nombre:</label>
+          <input id="name" name="name" type="text" autofocus required />
+
+          <label for="email">Correo electrónico:</label>
+          <input id="email" name="email" type="email" required />
+        </fieldset>
+        <fieldset>
+          <legend>Formulario</legend>
+          <label for="URL">URL:</label>
+          <input
+            id="URL"
+            name="URL"
+            type="url"
+            placeholder="Escribe la URL de tu página web personal"
+          />
+        </fieldset>
+        <fieldset>
+          <legend>Fecha</legend>
+          <label for="date">Fecha:</label>
+          <input id="date" name="date" type="date" />
+        </fieldset>
+        <fieldset>
+          <legend>Tiempo</legend>
+          <label for="time">Tiempo:</label>
+          <input id="time" name="time" type="time" />
+        </fieldset>
+        <fieldset>
+          <legend>Fecha y hora</legend>
+          <label for="date-time">Fecha y hora:</label>
+          <input id="date-time" name="datetime" type="datetime-local" />
+        </fieldset>
+        <fieldset>
+          <legend>Mes</legend>
+          <label for="month">Mes:</label>
+          <input id="month" name="month" type="month" />
+        </fieldset>
+        <fieldset>
+          <legend>Semana</legend>
+          <label for="week">Semana:</label>
+          <input id="week" name="week" type="week" />
+        </fieldset>
+        <fieldset>
+          <legend>Número</legend>
+          <label for="number">Número:</label>
+          <input id="number" name="number" type="number" min="-10" max="10" />
+        </fieldset>
+        <fieldset>
+          <legend>Teléfono</legend>
+          <label for="phone">Teléfono:</label>
+          <input id="phone" name="phone" type="tel" value="+34" readonly />
+        </fieldset>
+        <fieldset>
+          <legend>Término de búsqueda</legend>
+          <label for="search">Término de búsqueda:</label>
+          <input id="search" name="search" type="search" disabled />
+        </fieldset>
+        <fieldset>
+          <legend>Color favorito</legend>
+          <label for="color">Color favorito:</label>
+          <input id="color" name="color" type="color" />
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </body>
+</html>
