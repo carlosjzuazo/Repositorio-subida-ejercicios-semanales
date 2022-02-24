@@ -4,23 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  display: grid;
   min-height: 100vh;
-  max-width: 35%;
-  min-width: 200px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  grid-template-columns: auto;
-}
-header {
-  grid-template-columns: ;
-  text-align: center;
-  width: 40rem;
-}
-main {
-  text-align: center;
-  width: 40rem;
-}
-section {
-  text-align: center;
-  width: 40rem;
+  display: grid;
+  grid-template-columns: 5rem 1fr 5rem;
+  grid-template-rows: 2fr 3fr;
 }
